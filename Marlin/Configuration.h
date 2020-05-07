@@ -132,7 +132,7 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Anycubic i3"
+#define CUSTOM_MACHINE_NAME "Anycubic i3 Mega"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like http://www.uuidgenerator.net/version4
@@ -1106,9 +1106,9 @@
 #define Y_BED_SIZE 210
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
-#define X_MIN_POS -10
-#define Y_MIN_POS -11
-#define Z_MIN_POS 0
+#define X_MIN_POS 0
+#define Y_MIN_POS 0
+#define Z_MIN_POS 5
 #define X_MAX_POS X_BED_SIZE
 #define Y_MAX_POS Y_BED_SIZE
 #define Z_MAX_POS 205

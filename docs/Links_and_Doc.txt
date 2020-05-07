@@ -1,0 +1,6 @@
+marlin 2.0 skr 1.4 dual Z stepper:
+    https://github.com/MarlinFirmware/Marlin/issues/12020
+    https://github.com/MarlinFirmware/Marlin/issues/17196
+
+marlin 2.0 skr 1.4 dual Z Endstop:
+    https://github.com/bigtreetech/BIGTREETECH-SKR-V1.3/issues/175
