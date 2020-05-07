@@ -511,6 +511,7 @@
 // For Z set the number of stepper drivers
 //
  #define NUM_Z_STEPPER_DRIVERS 2   // (1-4) Z options change based on how many
+
 #if NUM_Z_STEPPER_DRIVERS > 1
   #define Z_MULTI_ENDSTOPS
   #if ENABLED(Z_MULTI_ENDSTOPS)
@@ -701,8 +702,9 @@
   #else
     // Amplification factor. Used to scale the correction step up or down in case
     // the stepper (spindle) position is farther out than the test point.
-    #define Z_STEPPER_ALIGN_AMP 1.0       // Use a value > 1.0 NOTE: This may cause instability!
-  #endif
+    // Use a value > 1.0 NOTE: This may cause instability!
+    #define Z_STEPPER_ALIGN_AMP 1.0         
+    #endif
 
   // On a 300mm bed a 5% grade would give a misalignment of ~1.5cm
   #define G34_MAX_GRADE              5    // (%) Maximum incline that G34 will handle
