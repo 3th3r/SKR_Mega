@@ -51,16 +51,9 @@
 #define X_DIAG_PIN                         P1_29  // X-STOP
 #define Y_DIAG_PIN                         P1_28  // Y-STOP
 #define Z_DIAG_PIN                         P1_27  // Z-STOP
+#define Z_MAX_PIN                          P1_25  // PWRDET
 #define E0_DIAG_PIN                        P1_26  // E0DET
-#define E1_DIAG_PIN                        P1_25  // E1DET
-
-
-//////////////////
-// TEST A ELEVER
-
-#define Z_MAX_PIN P1_25
-
-//////////////////
+#define E1_DIAG_PIN                        -1  // E1DET orginal P1_25
 
 //
 // Limit Switches
@@ -90,7 +83,7 @@
 #if Z_STALL_SENSITIVITY
   #define Z_STOP_PIN                  Z_DIAG_PIN
   #if Z_HOME_DIR < 0
-    #define Z_MAX_PIN                      P1_00  // PWRDET
+    #define Z_MAX_PIN                      P1_25  // PWRDET orignal P1_00
   #else
     #define Z_MIN_PIN                      P1_00  // PWRDET
   #endif
@@ -111,7 +104,7 @@
 // Filament Runout Sensor
 //
 #define FIL_RUNOUT_PIN                     P1_26  // E0DET
-#define FIL_RUNOUT2_PIN                    P1_25  // E1DET
+#define FIL_RUNOUT2_PIN                    -1 // E1DET original P1_25
 
 //
 // Power Supply Control
