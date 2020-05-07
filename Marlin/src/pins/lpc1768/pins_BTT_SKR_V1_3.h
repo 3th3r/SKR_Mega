@@ -37,6 +37,7 @@
 #define Z_DIAG_PIN                         P1_25  // Z-
 #define E0_DIAG_PIN                        P1_28  // X+
 #define E1_DIAG_PIN                        P1_26  // Y+
+//#define Z2_DIAG_PIN                         P1_26  // Z2
 
 /**
  * Limit Switches
@@ -74,7 +75,7 @@
   #endif
 #else
   #define Z_MIN_PIN                        P1_25  // Z-
-  #define Z_MAX_PIN                        P1_24  // Z+
+  #define Z_MAX_PIN                        P1_24  // Z+ BACKUP
 #endif
 
 #define ONBOARD_ENDSTOPPULLUPS                    // Board has built-in pullups
