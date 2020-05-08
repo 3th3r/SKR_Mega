@@ -484,9 +484,9 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   // ANYCUBIC I3 240C and 8 cycles
-  #define  DEFAULT_Kp 17.80
-  #define  DEFAULT_Ki 0.84
-  #define  DEFAULT_Kd 64.84
+  #define  DEFAULT_Kp 13.11
+  #define  DEFAULT_Ki 0.75
+  #define  DEFAULT_Kd 57.34
 
   // Ultimaker
   //#define DEFAULT_Kp 22.2
