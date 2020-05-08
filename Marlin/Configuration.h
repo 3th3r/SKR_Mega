@@ -545,9 +545,9 @@
   //#define DEFAULT_bedKd 305.4
 
   // Anycubic I3 with Ultrabase. 100C and 8 cycles
-  #define  DEFAULT_bedKp 218.59
-  #define  DEFAULT_bedKi 43.04
-  #define  DEFAULT_bedKd 277.56
+  #define  DEFAULT_bedKp 82.77
+  #define  DEFAULT_bedKi 16.54
+  #define  DEFAULT_bedKd 276.17
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from pidautotune
@@ -1355,7 +1355,7 @@
 // For DELTA this is the top-center of the Cartesian print volume.
 //#define MANUAL_X_HOME_POS 0
 //#define MANUAL_Y_HOME_POS 0
-//#define MANUAL_Z_HOME_POS 0
+#define MANUAL_Z_HOME_POS 0
 
 // Use "Z Safe Homing" to avoid homing with a Z probe outside the bed area.
 //
