@@ -15,6 +15,9 @@ marlin Mesh Bed Leveling (no probe)
     https://www.youtube.com/watch?v=Rij29oy6t70
     https://marlinfw.org/docs/gcode/G029-mbl.html
 
+Linear Advance:
+    https://marlinfw.org/tools/lin_advance/k-factor.html
+
 
 I3 mega Marlin 2.0  
     https://github.com/davidramiro/Marlin-Ai3M-2.0.x/blob/2.0.x/Marlin/Configuration.h
