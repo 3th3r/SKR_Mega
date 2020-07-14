@@ -740,14 +740,14 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 319.65 } //default E steps 92.6, BMG theoricall default 385
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 419.65 } //default E steps 92.6, BMG theoricall default 385
 
 /**
  * Default Max Feed Rate (mm/s)
  * Override with M203
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_MAX_FEEDRATE          { 500, 500, 6, 75 }
+#define DEFAULT_MAX_FEEDRATE          { 500, 500, 6, 150 }
 
 //#define LIMITED_MAX_FR_EDITING        // Limit edit via M203 or LCD to DEFAULT_MAX_FEEDRATE * 2
 #if ENABLED(LIMITED_MAX_FR_EDITING)
