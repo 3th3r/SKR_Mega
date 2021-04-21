@@ -75,15 +75,15 @@
 #endif
 #if HOTENDS == 1
   #ifndef FAN1_PIN
-    #define FAN1_PIN                       P2_03 // default P2_04, use P2_03 to switch part cooling & heater cooling fan.
+    #define FAN1_PIN                       -1 // default P2_04, use P2_03 to switch part cooling & heater cooling fan.
   #endif
 #else
   #ifndef HEATER_1_PIN
-    #define HEATER_1_PIN                   P2_03 // default P2_04, use P2_03 to switch part cooling & heater cooling fan.
+    #define HEATER_1_PIN                   -1 // default P2_04, use P2_03 to switch part cooling & heater cooling fan.
   #endif
 #endif
 #ifndef FAN_PIN
-  #define FAN_PIN                          P2_04
+  #define FAN_PIN                          P2_04 //default P2_03, to control part cooling fan, because mofset is blown on P2_03
 #endif
 #ifndef HEATER_BED_PIN
   #define HEATER_BED_PIN                   P2_05
